@@ -7,9 +7,19 @@ Android Shared Preferences Helper
 Android Library to handle SharedPreferences boilerplate code and other tools
 
 ## Download
+Use jitpack and add the compile line to your app gradle.
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+	
 ```groovy
 dependencies {
-  compile 'com.github.seanzor:shared-preferences-helper:1.0.1'
+  compile 'com.github.SeanZoR:shared-preferences-helper:-SNAPSHOT'
 }
 ```
 
